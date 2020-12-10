@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   .graduation .arredondado, .quiz_comment .arredondado {
     border-radius: 20px; }
   .graduation iframe[src*="youtube"], .quiz_comment iframe[src*="youtube"] {
-    min-width: 700px !important; }
+    min-width: 100% !important; }
   .graduation .btn, .quiz_comment .btn {
     background-color: black;
     padding: 10px;
@@ -1870,7 +1870,6 @@ span.tooltipbr:hover:before {
   .titulo-semana:nth-child(even){
     background-color: #f2f2f2;
   }
-
 
 
 /* Telas menores */
