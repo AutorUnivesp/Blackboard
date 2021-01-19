@@ -31,10 +31,10 @@ function desbloquiaAvaliativa(){
     var ano = dateAvaliativa.getFullYear();
 
     // Avaliativa Semana 3
-  if (dia >= 11 && mes >= 2 && ano >= 2021) {
+  if (dia >= 29 && mes >= 3 && ano >= 2021) {
     $('#libera-avaliativa1').remove();
     $('#atividade-avaliativa1').show();
-  }else if (dia < 11 && mes > 2 && ano >= 2021) {
+  }else if (dia < 29 && mes > 3 && ano >= 2021) {
     $('#libera-avaliativa1').remove();
     $('#atividade-avaliativa1').show();
   } else if (dia <= 31 && mes <= 12 && ano > 2021) {
@@ -46,10 +46,10 @@ function desbloquiaAvaliativa(){
   }
 
   // Avaliativa Semana 4
-if (dia >= 12 && mes >= 2 && ano >= 2021) {
+if (dia >= 5 && mes >= 4 && ano >= 2021) {
   $('#libera-avaliativa2').remove();
   $('#atividade-avaliativa2').show();
-}else if (dia < 12 && mes > 2 && ano >= 2021) {
+}else if (dia < 5 && mes > 4 && ano >= 2021) {
   $('#libera-avaliativa2').remove();
   $('#atividade-avaliativa2').show();
 } else if (dia <= 31 && mes <= 12 && ano > 2021) {
@@ -61,10 +61,10 @@ if (dia >= 12 && mes >= 2 && ano >= 2021) {
 }
 
 // Avaliativa Semana 5
-if (dia >= 13 && mes >= 2 && ano >= 2021) {
+if (dia >= 12 && mes >= 4 && ano >= 2021) {
 $('#libera-avaliativa3').remove();
 $('#atividade-avaliativa3').show();
-}else if (dia < 13 && mes > 2 && ano >= 2021) {
+}else if (dia < 12 && mes > 4 && ano >= 2021) {
 $('#libera-avaliativa3').remove();
 $('#atividade-avaliativa3').show();
 } else if (dia <= 31 && mes <= 12 && ano > 2021) {
@@ -76,10 +76,10 @@ $('#atividade-avaliativa3').remove();
 }
 
 // Avaliativa Semana 6
-if (dia >= 14 && mes >= 2 && ano >= 2021) {
+if (dia >= 19 && mes >= 4 && ano >= 2021) {
 $('#libera-avaliativa4').remove();
 $('#atividade-avaliativa4').show();
-}else if (dia < 14 && mes > 2 && ano >= 2021) {
+}else if (dia < 19 && mes > 4 && ano >= 2021) {
 $('#libera-avaliativa4').remove();
 $('#atividade-avaliativa4').show();
 } else if (dia <= 31 && mes <= 12 && ano > 2021) {
