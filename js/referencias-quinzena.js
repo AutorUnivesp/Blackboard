@@ -21,7 +21,7 @@ function srvTime04Bi() {
   return xmlHttps.getResponseHeader("Date");
 }
 
-function dosbloqueiaReferencia() {
+function dosbloqueiaReferenciaQuinzena() {
   var st = srvTime04Bi();
   var dateReferencia = new Date(st);
   var diaRef = dateReferencia.getDate();
@@ -119,5 +119,5 @@ function dosbloqueiaReferencia() {
 }
 
 $(document).ready(function(){
-  dosbloqueiaReferencia();
+  dosbloqueiaReferenciaQuinzena();
 });
