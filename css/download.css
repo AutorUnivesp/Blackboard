@@ -1873,6 +1873,11 @@ span.tooltipbr:hover:before {
     background-color: #f2f2f2;
   }
 
+#checkbox-em-sintese {
+    min-width: 19.5px;
+    min-height: 19.5px;
+  }
+
 
 /* Telas menores */
 @media (min-width: 0px) and (max-width: 400px) {
