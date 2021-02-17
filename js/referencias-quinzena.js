@@ -29,9 +29,9 @@ function dosbloqueiaReferenciaQuinzena() {
   var anoRef = dateReferencia.getFullYear();
 
   // Referencia Quinzena 1
-  if (diaRef >= 22 && mesRef >= 2 && anoRef >= 2021) {
+  if (diaRef >= 15 && mesRef >= 3 && anoRef >= 2021) {
     $('#referencia-quinzena1').show();
-  }else if (diaRef < 22 && mesRef > 2 && anoRef >= 2021) {
+  }else if (diaRef < 15 && mesRef > 3 && anoRef >= 2021) {
     $('#referencia-quinzena1').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena1').show();
@@ -40,9 +40,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 2
-  if (diaRef >= 8 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 29 && mesRef >= 3 && anoRef >= 2021) {
     $('#referencia-quinzena2').show();
-  }else if (diaRef < 8 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 29 && mesRef > 3 && anoRef >= 2021) {
     $('#referencia-quinzena2').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena2').show();
@@ -51,9 +51,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 3
-  if (diaRef >= 22 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 12 && mesRef >= 4 && anoRef >= 2021) {
     $('#referencia-quinzena3').show();
-  }else if (diaRef < 22 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 12 && mesRef > 4 && anoRef >= 2021) {
     $('#referencia-quinzena3').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena3').show();
@@ -62,9 +62,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 4
-  if (diaRef >= 5 && mesRef >= 4 && anoRef >= 2021) {
+  if (diaRef >= 26 && mesRef >= 4 && anoRef >= 2021) {
     $('#referencia-quinzena4').show();
-  }else if (diaRef < 5 && mesRef > 4 && anoRef >= 2021) {
+  }else if (diaRef < 26 && mesRef > 4 && anoRef >= 2021) {
     $('#referencia-quinzena4').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena4').show();
@@ -73,9 +73,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 5
-  if (diaRef >= 19 && mesRef >= 4 && anoRef >= 2021) {
+  if (diaRef >= 10 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-quinzena5').show();
-  }else if (diaRef < 19 && mesRef > 4 && anoRef >= 2021) {
+  }else if (diaRef < 10 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-quinzena5').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena5').show();
@@ -84,9 +84,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 6
-  if (diaRef >= 3 && mesRef >= 5 && anoRef >= 2021) {
+  if (diaRef >= 24 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-quinzena6').show();
-  }else if (diaRef < 3 && mesRef > 5 && anoRef >= 2021) {
+  }else if (diaRef < 24 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-quinzena6').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena6').show();
@@ -95,9 +95,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 7
-  if (diaRef >= 17 && mesRef >= 5 && anoRef >= 2021) {
+  if (diaRef >= 7 && mesRef >= 6 && anoRef >= 2021) {
     $('#referencia-quinzena7').show();
-  }else if (diaRef < 17 && mesRef > 5 && anoRef >= 2021) {
+  }else if (diaRef < 7 && mesRef > 6 && anoRef >= 2021) {
     $('#referencia-quinzena7').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena7').show();
@@ -106,9 +106,9 @@ function dosbloqueiaReferenciaQuinzena() {
   }
 
   // Referencia Quinzena 8
-  if (diaRef >= 31 && mesRef >= 5 && anoRef >= 2021) {
+  if (diaRef >= 21 && mesRef >= 6 && anoRef >= 2021) {
     $('#referencia-quinzena8').show();
-  }else if (diaRef < 31 && mesRef > 5 && anoRef >= 2021) {
+  }else if (diaRef < 21 && mesRef > 6 && anoRef >= 2021) {
     $('#referencia-quinzena8').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-quinzena8').show();
