@@ -31,10 +31,10 @@ function desbloquiaAvaliativa(){
     var ano = dateAvaliativa.getFullYear();
 
     // Avaliativa Semana 3
-  if (dia >= 29 && mes >= 3 && ano >= 2021) {
+  if (dia >= 5 && mes >= 4 && ano >= 2021) {
     $('#libera-avaliativa1').remove();
     $('#atividade-avaliativa1').show();
-  }else if (dia < 29 && mes > 3 && ano >= 2021) {
+  }else if (dia < 5 && mes > 4 && ano >= 2021) {
     $('#libera-avaliativa1').remove();
     $('#atividade-avaliativa1').show();
   } else if (dia <= 31 && mes <= 12 && ano > 2021) {
