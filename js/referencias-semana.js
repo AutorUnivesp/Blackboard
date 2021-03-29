@@ -29,9 +29,9 @@ function dosbloqueiaReferencia() {
   var anoRef = dateReferencia.getFullYear();
 
   // Referencia Semana 1
-  if (diaRef >= 22 && mesRef >= 2 && anoRef >= 2021) {
+  if (diaRef >= 26 && mesRef >= 4 && anoRef >= 2021) {
     $('#referencia-semana1').show();
-  }else if (diaRef < 22 && mesRef > 2 && anoRef >= 2021) {
+  }else if (diaRef < 26 && mesRef > 4 && anoRef >= 2021) {
     $('#referencia-semana1').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana1').show();
@@ -40,9 +40,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 2
-  if (diaRef >= 1 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 3 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-semana2').show();
-  }else if (diaRef < 1 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 3 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-semana2').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana2').show();
@@ -51,9 +51,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 3
-  if (diaRef >= 8 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 10 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-semana3').show();
-  }else if (diaRef < 8 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 10 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-semana3').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana3').show();
@@ -62,9 +62,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 4
-  if (diaRef >= 15 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 17 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-semana4').show();
-  }else if (diaRef < 15 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 17 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-semana4').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana4').show();
@@ -73,9 +73,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 5
-  if (diaRef >= 22 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 24 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-semana5').show();
-  }else if (diaRef < 22 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 24 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-semana5').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana5').show();
@@ -84,9 +84,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 6
-  if (diaRef >= 29 && mesRef >= 3 && anoRef >= 2021) {
+  if (diaRef >= 31 && mesRef >= 5 && anoRef >= 2021) {
     $('#referencia-semana6').show();
-  }else if (diaRef < 29 && mesRef > 3 && anoRef >= 2021) {
+  }else if (diaRef < 31 && mesRef > 5 && anoRef >= 2021) {
     $('#referencia-semana6').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana6').show();
@@ -95,9 +95,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 7
-  if (diaRef >= 5 && mesRef >= 4 && anoRef >= 2021) {
+  if (diaRef >= 7 && mesRef >= 6 && anoRef >= 2021) {
     $('#referencia-semana7').show();
-  }else if (diaRef < 5 && mesRef > 4 && anoRef >= 2021) {
+  }else if (diaRef < 7 && mesRef > 6 && anoRef >= 2021) {
     $('#referencia-semana7').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana7').show();
@@ -106,9 +106,9 @@ function dosbloqueiaReferencia() {
   }
 
   // Referencia Semana 8
-  if (diaRef >= 12 && mesRef >= 4 && anoRef >= 2021) {
+  if (diaRef >= 14 && mesRef >= 6 && anoRef >= 2021) {
     $('#referencia-semana8').show();
-  }else if (diaRef < 12 && mesRef > 4 && anoRef >= 2021) {
+  }else if (diaRef < 14 && mesRef > 6 && anoRef >= 2021) {
     $('#referencia-semana8').show();
   } else if (diaRef <= 31 && mesRef <= 12 && anoRef > 2021) {
     $('#referencia-semana8').show();
