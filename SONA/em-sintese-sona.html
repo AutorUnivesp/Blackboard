@@ -1,87 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-  <link rel="stylesheet" href="css/download.css"></link>
-  <link rel="stylesheet" href="css/commons-novotec.css"></link>
-  <script type="text/javascript" src="js/javaScriptGlobal.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <title>Em síntese - SONA</title>
-  <meta name="identifier" content="ifbe3cced46da28adf98e6961ad46d0a8"></meta>
-  <meta name="editing_roles" content="teachers"></meta>
-  <meta name="workflow_state" content="active"></meta>
+    <meta charset="utf-8">
+    <title>Em síntese</title>
+    <link rel="stylesheet" href="css/download.css">
+    <link rel="stylesheet" href="css/commons-novotec.css">
+    <script src="js/javaScriptGlobal.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-  <!-- INÍCIO DO CONTEÚDO -->
-
+    <!-- INÍCIO DO CONTEÚDO -->
     <div class="user_content">
-  <div class="container content-list">
-    <div class="sona content-item text neutral no-transition">
-      <div class="header">
-        <div class="icon"><img src="https://assets.univesp.br/canvas/img/sintese2.svg" /></div>
-        <h2>Em síntese</h2>
-      </div>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="container content-list">
+            <div class="sona content-item text neutral no-transition">
+                <div class="header">
+                    <div class="icon">
+                        <img src="https://assets.univesp.br/canvas/img/sintese2.svg">
+                    </div>
+                    <h2>Em síntese</h2>
+                </div>
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="content-item sona guide box parabens opt1">
-        <div class="content">
-          <div>
-            <h2>Parabéns! Você chegou ao fim do conteúdo desta semana.</h2>
-            <p>Apresentação_do_que_será_estudado_na_próxima_semana.</p>
-          </div>
-          <!--Personagens-->
-          <img class="personagem" style="right: -120px; top: -55px;" src="https://assets.univesp.br/canvas/img/pers_band_azul.gif" />
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="content-item sona guide box parabens opt1">
+                    <div class="content">
+                        <div>
+                            <h2>Parabéns! Você chegou ao fim do conteúdo desta semana.</h2>
+                            <p>Apresentação_do_que_será_estudado_na_próxima_semana.</p>
+                        </div>
+                        <!--Personagens-->
+                        <img class="personagem" id="pers_band" style="right: -120px; top: -55px;"
+                            src="https://assets.univesp.br/canvas/img/pers_band_azul.gif" />
+                    </div>
+                </div>
+
+                <!-- JS random Personagens -->
+                <script>
+                    var img = new Array(
+                        "pers_band_azul.gif", "pers_band_vermelho.gif", "pers_band_amarelo.gif", "pers_band_verde.gif", "pers_band_roxo.gif"
+                    );
+                    document.getElementById('pers_band').src = "https://assets.univesp.br/canvas/img/" + img[getRand(0, 4)];
+                    function getRand(min, max) {
+                        return Math.floor(Math.random() * (max - min + 1)) + min;
+                    }
+                </script>
+                <!-- Fim do JS random Personagens -->
+
+                <!-- SEMANA 8 / obs: descomente o código abaixo (e comente o código acima) quando a conteúdo for da semana 8 -->
+                <!-- Opção 2 com a figura do solzinho na montanha.-->
+                <!--<div class="content-item sona no-transition parabens opt2">
+                    <div class="box">
+                        <div class="content">
+                            <h2>Parabéns! Você concluiu o conteúdo da disciplina!</h2>
+                            <p>Texto_de_encerramento_com_chamada_para_o_Resumo_Visual</p>
+                        </div>
+                        <div class="sol"></div>
+                        <img class="mountain" src="https://assets.univesp.br/canvas/img/montanha.gif" />
+                    </div>
+                </div>-->
+
+                <div class="content">
+                    <p>Você está preparado para avançar?</strong> Faça uma auto-avaliação: você adquiriu todas as
+                        competências e habilidades esperadas? Marque os itens que acredita ter alcançado. Se faltar
+                        algum,
+                        revise o conteúdo da semana.</p>
+                    <p>Nesta semana, eu:</p>
+                    <div class="gridContainer-checkbox" style="margin-left: -170px;">
+                        <input id="check-1" type="checkbox">
+                        <label for="check-1">xxxxxxxxxxxxxxxxxxxxx</label>
+                        <input id="check-2" type="checkbox">
+                        <label for="check-2">xxxxxxxxxxxxxxxxxxxxx</label>
+                        <input id="check-3" type="checkbox">
+                        <label for="check-3">xxxxxxxxxxxxxxxxxxxxx</label>
+                    </div>
+                    <p>&nbsp;</p>
+                    <span style="font-size: 0.75rem;"><strong>*Seus dados não serão registrados.</strong></span>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- SEMANA 8 / obs: descomente o código abaixo (e comente o código acima) quando a conteúdo for da semana 8 -->
-      <!-- Opção 2 com a figura do solzinho na montanha.-->
-      <!-- <div class="content-item sona no-transition parabens opt2">
-        <div class="box">
-          <div class="content">
-            <h2>Parabéns! Você concluiu o conteúdo da disciplina!</h2>
-            <p>Texto_de_encerramento_com_chamada_para_o_Resumo_Visual</p>
-          </div>
-          <div class="sol"></div>
-          <img class="mountain" src="https://assets.univesp.br/canvas/img/montanha.gif" />
-        </div>
-      </div> -->
-
-      <p>Você está preparado para avançar?</strong> Faça uma auto-avaliação: você adquiriu todas as competências e habilidades esperadas? Marque os itens que acredita ter alcançado. Se faltar algum, revise o conteúdo da semana.</p>
-      <p>Nesta semana, eu:</p>
-      <div class="conteudo-modelo6">
-        <div class="gridContainer-checkbox" style="margin-left: -170px;">
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle1"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle2"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle3"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle4"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle5"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-          <input id="checkbox-em-sintese" type="checkbox" name="teste" value="teste" />
-          <label style="font-size: 15px; margin-top: 5px;" for="vehicle6"> xxxxxxxxxxxxxxxxxxxxx</label>
-
-        </div>
-        <p>&nbsp;</p>
-        <span style="font-size: 8pt;"><strong>Seus dados n&atilde;o ser&atilde;o registrados.</strong></span>
-      </div>
     </div>
-  </div>
-  <span class="end"> </span>
-</div>
-
     <!-- FIM DO CONTEÚDO -->
 </body>
 
