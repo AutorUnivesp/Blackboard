@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Em síntese</title>
     <link rel="stylesheet" href="css/download.css">
     <link rel="stylesheet" href="css/commons-novotec.css">
@@ -37,24 +38,26 @@
                 <div class="content-item sona guide box parabens opt1">
                     <div class="content">
                         <div>
-                            <h2>Parabéns! Você chegou ao fim do conteúdo desta semana.</h2>
-                            <p>Apresentação_do_que_será_estudado_na_próxima_semana.</p>
+                            <h2>Parabéns! Você chegou ao fim do conteúdo desta semana. </h2>
+                            <p> Apresentação do que será estudado na próxima semana.</p>
                         </div>
                         <!--Personagens-->
-                        <img class="personagem" id="pers_band" style="right: -120px; top: -55px;"
-                            src="https://assets.univesp.br/canvas/img/pers_band_azul.gif" />
+                        <img class="personagem" id="pers_band"
+                            src="https://assets.univesp.br/canvas/img/pers_band_azul.gif">
                     </div>
                 </div>
 
                 <!-- JS random Personagens -->
                 <script>
                     var img = new Array(
-                        "pers_band_azul.gif", "pers_band_vermelho.gif", "pers_band_amarelo.gif", "pers_band_verde.gif", "pers_band_roxo.gif"
+                        "pers_band_azul.gif",
+                        "pers_band_vermelho.gif",
+                        "pers_band_amarelo.gif",
+                        "pers_band_verde.gif",
+                        "pers_band_roxo.gif"
                     );
                     document.getElementById('pers_band').src = "https://assets.univesp.br/canvas/img/" + img[getRand(0, 4)];
-                    function getRand(min, max) {
-                        return Math.floor(Math.random() * (max - min + 1)) + min;
-                    }
+                    function getRand(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
                 </script>
                 <!-- Fim do JS random Personagens -->
 
@@ -79,14 +82,22 @@
                     <p>Nesta semana, eu:</p>
                     <div class="gridContainer-checkbox" style="margin-left: -170px;">
                         <input id="check-1" type="checkbox">
-                        <label for="check-1">xxxxxxxxxxxxxxxxxxxxx</label>
+                        <label for="check-1">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
                         <input id="check-2" type="checkbox">
-                        <label for="check-2">xxxxxxxxxxxxxxxxxxxxx</label>
+                        <label for="check-2">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
                         <input id="check-3" type="checkbox">
-                        <label for="check-3">xxxxxxxxxxxxxxxxxxxxx</label>
+                        <label for="check-3">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
+                        <input id="check-4" type="checkbox">
+                        <label for="check-4">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
+                        <input id="check-5" type="checkbox">
+                        <label for="check-5">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
+                        <input id="check-6" type="checkbox">
+                        <label for="check-6">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
+                        <input id="check-7" type="checkbox">
+                        <label for="check-7">xxxxxxxxx xxxxxxxxx xxxxxxxxx</label>
                     </div>
                     <p>&nbsp;</p>
-                    <span style="font-size: 0.75rem;"><strong>*Seus dados não serão registrados.</strong></span>
+                    <p style="font-size: 0.75rem;"><strong>*Seus dados não serão registrados.</strong></p>
                 </div>
             </div>
         </div>
