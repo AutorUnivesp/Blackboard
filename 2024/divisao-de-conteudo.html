@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisão de conteúdo</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet" href="https://assets.univesp.br/blackboard/css/ava-style-2024.css?v=1.01-d">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <section class="lesson-part">
+      <header>
+        <img src="https://assets.univesp.br/canvas/img/atividade4.svg">
+        <div class="section-title">
+          <p>Divisão de conteúdo</p>
+          <h2>Dividir o conteúdo em colunas</h2>
+        </div>
+      </header>
+      <div class="styled-text">
+        <aside>
+          <span class="material-symbols-outlined">flag</span>
+          <p>Clique nos accordions para ver os cards.</p>
+        </aside>
+        <details>
+          <summary>Dividir em 1 a 5 colunas</summary>
+          <div class="card-green flex-center">
+            <h3><code>.grid-auto</code> divide o conteúdo em 1 a 5 colunas</h3>
+          </div>
+          <aside>
+            <span class="material-symbols-outlined">flag</span>
+            <p>Default: <code>--min-item-width: 150px;</code></p>
+          </aside>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-1">Preview</a></li>
+              <li><a href="#tab-2">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-1">
+              <div class="grid-auto grid-highlight text-center">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div>6</div>
+                <div>7</div>
+                <div>8</div>
+              </div>
+            </div>
+            <div class="nav-tabs-content" id="tab-2">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="grid-auto grid-highlight text-center"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+  &lt;div&gt;3&lt;/div&gt;
+  &lt;div&gt;4&lt;/div&gt;
+  &lt;div&gt;5&lt;/div&gt;
+  &lt;div&gt;6&lt;/div&gt;
+  &lt;div&gt;7&lt;/div&gt;
+  &lt;div&gt;8&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div><br>
+        </details>
+
+        <details>
+          <summary>Dividir em qq colunas (<code>--min-item-width</code> personalizado)</summary>
+          <div class="card-green flex-center">
+            <h3><code>.grid-auto</code> com <code>--min-item-width</code> personalizado</h3>
+          </div>
+          <aside>
+            <span class="material-symbols-outlined">flag</span>
+            <p>No exemplo: <code>--min-item-width: 220px;</code></p>
+          </aside>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-3">Preview</a></li>
+              <li><a href="#tab-4">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-3">
+              <div class="grid-auto grid-highlight text-center" style="--min-item-width: 220px;">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+              </div>
+            </div>
+            <div class="nav-tabs-content" id="tab-4">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="grid-auto grid-highlight text-center" style="--min-item-width: 220px;"&gt;
+  &lt;div&gt;1&lt;/div&gt;
+  &lt;div&gt;2&lt;/div&gt;
+  &lt;div&gt;3&lt;/div&gt;
+  &lt;div&gt;4&lt;/div&gt;
+  &lt;div&gt;5&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div><br>
+        </details>
+
+
+        <details>
+          <summary>Dividir em duas colunas</summary>
+          <div class="card-green flex-center">
+            <h3><code>.grid2col</code> divide o conteúdo em duas colunas</h3>
+          </div>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-5">Preview</a></li>
+              <li><a href="#tab-6">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-5">
+              <div class="grid2col grid-highlight">
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+              </div>
+            </div>
+            <div class="nav-tabs-content" id="tab-6">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="grid2col grid-highlight"&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div><br>
+        </details>
+
+
+
+        <details>
+          <summary>Dividir em duas colunas ''centradas''</summary>
+          <div class="card-green flex-center">
+            <h3><code>.flex2col</code> divide o conteúdo em duas colunas ''centradas''</h3>
+          </div>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-7">Preview</a></li>
+              <li><a href="#tab-8">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-7">
+              <div class="flex2col grid-highlight">
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+                <div>One half</div>
+              </div>
+            </div>
+            <div class="nav-tabs-content" id="tab-8">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="flex2col grid-highlight"&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+  &lt;div&gt;One half&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div><br>
+        </details>
+
+
+        <details>
+          <summary>Dividir em proporção áurea</summary>
+          <div class="card-green flex-center">
+            <h3><code>.grid-golden-ratio</code> divide o conteúdo em proporção áurea</h3>
+          </div>
+          <aside>
+            <span class="material-symbols-outlined">flag</span>
+            <p>Mais exatamente, na proporção: \(62\%/38\% \approx 1.63\)</p>
+          </aside>
+          <div class="card-purple">
+            <span class="material-symbols-outlined">lightbulb</span>
+            <p>Podemos usar apenas para listas curtas (\(\approx\) 1-5 itens na lista).</p>
+          </div>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-9">Preview</a></li>
+              <li><a href="#tab-10">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-9">
+              <div class="grid-golden-ratio">
+                <h3>Ao final da semana, você deverá ser capaz de:</h3>
+                <ul class="list-check">
+                  <li>Entender que produtos e processos podem ser representados matematicamente através de relações
+                    entrada/saída; </li>
+                  <li>Modelar sistemas mecânicos, elétricos e eletromecânicos através das equações de Newton-Euler, leis
+                    de
+                    Kirchhoff, leis de Faraday e Lorentz; </li>
+                  <li>Representar o comportamento dinâmico através de equações diferenciais e funções de transferência.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="nav-tabs-content" id="tab-10">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="grid-golden-ratio"&gt;
+  &lt;h3&gt;Ao final da semana, você deverá ser capaz de:&lt;/h3&gt;
+  &lt;ul class="list-check"&gt;
+    &lt;li&gt;Entender que produtos e processos podem ser representados matematicamente
+    através de relações entrada/saída;&lt;/li&gt;
+    &lt;li&gt;Modelar sistemas mecânicos, elétricos e eletromecânicos através das equações
+    de Newton-Euler, leis de Kirchhoff, leis de Faraday e Lorentz;&lt;/li&gt;
+    &lt;li&gt;Representar o comportamento dinâmico através de equações diferenciais e
+    funções de transferência.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</code></pre>
+            </div>
+          </div><br>
+        </details><br><br>
+
+
+
+        <div class="card-yellow flex-center">
+          <h3>Exemplos</h3>
+        </div>
+        <ol class="list-styled-numbers">
+          <li>
+            <p><strong>Para grupar as fotos</strong> (<code>.grid2col</code>):</p>
+            <div class="grid2col">
+              <figure>
+                <img src="https://source.unsplash.com/900x700/?sao-paulo-city" alt="">
+                <figcaption>Random Image of São Paulo, Brasil. <span class="fonte">Fonte: unsplash.com</span>
+                </figcaption>
+              </figure>
+              <figure>
+                <img src="https://source.unsplash.com/900x700/?kyiv" alt="">
+                <figcaption>Random Image of Kyiv, Ucrânia. <span class="fonte">Fonte: unsplash.com</span></figcaption>
+              </figure>
+            </div>
+          </li>
+          <li>
+            <p><strong>Para melhorar a percepção/compreensão do texto</strong> (<code>.grid2col</code>):</p>
+            <article>
+              <p><strong>Nesta semana, vimos que:</strong></p>
+              <div class="grid2col">
+                <ul>
+                  <li>
+                    <p>Copérnico, um padre polonês, foi o primeiro a propor um Universo Heliocêntrico.</p>
+                  </li>
+                  <li>
+                    <p>Kepler desenvolveu um modelo para o sistema solar baseado nas propostas de Copérnico, que gerou
+                      três leis, que ficaram conhecidas como as Três Leis de Kepler.</p>
+                  </li>
+                  <li>
+                    <p>A Primeira Lei de Kepler estabelece que todos os planetas se movem em órbitas elípticas com o Sol
+                      estando em um dos focos.</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <p>A Segunda Lei de Kepler estabelece que uma linha desenhada do Sol para qualquer planeta varrerá
+                      áreas iguais em tempos iguais.</p>
+                  </li>
+                  <li>
+                    <p>A Terceira Lei de Kepler estabelece que se considerarmos as órbitas de dois planetas, a razão dos
+                      quadrados de seus períodos orbitais é igual à razão dos cubos dos raios médios de suas órbitas.
+                    </p>
+                  </li>
+                </ul>
+            </article>
+          </li>
+          <!-- <li>
+            <p><strong>Para melhorar a percepção/compreensão do texto</strong>
+              (<code>.grid-golden-ratio</code>):</p>
+            <div class="grid-golden-ratio">
+              <h3>Uma sequência boa para estudar pode ser:</h3>
+              <ul class="list-hyphen">
+                <li>Comece assistindo o vídeo da seção Revisitando Conhecimento;</li>
+                <li>Leia cuidadosamente o desafio;</li>
+                <li>Assista às videoaulas 1 a 3;</li>
+                <li>Leia o texto-base;</li>
+                <li>Faça os exercícios de apoio;</li>
+                <li>Acesse o fórum temático e responda às perguntas do Desafio;</li>
+                <li>Leia os textos indicados no material de apoio;</li>
+                <li>Poste as dúvidas no fórum específico, se sentir necessidade.</li>
+              </ul>
+            </div>
+          </li> -->
+          <li>
+            <p><strong>Para comparações </strong> (<code>.grid2col</code>):</p>
+            <div class="grid2col">
+              <figure>
+                <img
+                  src="https://lh3.googleusercontent.com/KXFIUdfQL9XVLZE6pPPtmwNFPSg-VVrWZDd7jgvaelfJBKQNtW8fGHzotyfs8NOD6qow6cUT34wXZb6tOkTe2n4Jo738qqVdoSOEH1BqIxTw=s0"
+                  alt="" style="aspect-ratio: 1.09333 / 1;">
+                <figcaption class="do-dont">
+                  <div class="card-green margin-top-0">
+                    <span class="material-symbols-outlined">thumb_up</span>
+                    <div class="card-content">
+                      <p><strong>Do</strong> </p>
+                    </div>
+                  </div>
+                  Use o menu flutuante para recolher ações menos importantes
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src="https://lh3.googleusercontent.com/uJ2O2-0dUEGtueC9hOYzPkh24BGs0RWi6TtBtKXXKm-w2AerCvzZ90tbchcQIfXIpkXVtbPtI3QkNHKqq98homfxHjBeiIkviWn6WB-Sd7A=s0"
+                  alt="" style="aspect-ratio: 1.09333 / 1;">
+                <figcaption class="do-dont">
+                  <div class="card-red margin-top-0">
+                    <span class="material-symbols-outlined">thumb_down</span>
+                    <div class="card-content">
+                      <p><strong>Don't</strong> </p>
+                    </div>
+                  </div>
+                  Não use mais de três ícones de ação
+                </figcaption>
+              </figure>
+            </div>
+          </li>
+          <li>
+            <p><strong>Para descrição de uma imagem</strong>
+              (<code>.grid-golden-ratio</code>):</p>
+            <div class="grid-golden-ratio">
+              <div class="text-small">
+                <h3>Ícone de navegação</h3>
+                <p>O ícone de navegação pode assumir qualquer uma das seguintes formas:</p>
+                <ul>
+                  <li>Um ícone de menu, que abre uma navegação.</li>
+                  <li>Uma seta para trás, que retorna à tela anterior.</li>
+                </ul>
+              </div>
+              <figure>
+                <img
+                  src="https://lh3.googleusercontent.com/Rnfy-yXoc_OuwKj5H_LNAqyKnSytspbwr6szsdsjBZ4NRIDi4wcadgo8BE2Y4PCvrCPCWnt3gyy9kc7-qhDGr1MBpCJ4Wzvzaof_HcFhhaoD=s0"
+                  alt="" style="aspect-ratio: 2.25333 / 1;">
+                <figcaption>Ícone de navegação.</figcaption>
+              </figure>
+            </div>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+  </div>
+
+  <!-- JS for page -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Tabs navigation para os videos-->
+  <script src="https://assets.univesp.br/blackboard/js/jquery.tabslet.min.js"></script>
+  <script>$(document).ready(function () {
+      $('.tabs').tabslet();
+    });</script>
+
+  <script src="https://assets.univesp.br/blackboard/js/script-ava.js"></script>
+
+
+  <!--KaTeX for mathematics formulas-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+  <!-- HTML, CSS, Python, PHP etc code highlighting  -->
+  <script src="https://assets.univesp.br/blackboard/js/prism.js"></script>
+  <!-- Instantiate clipboard -->
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  <script src="https://assets.univesp.br/blackboard/js/clipboard.ava.js"></script>
+</body>
+
+</html>

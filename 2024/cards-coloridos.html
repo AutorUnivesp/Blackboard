@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cards e ideias de como usá-los</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet" href="https://assets.univesp.br/blackboard/css/ava-style-2024.css?v=1.01-d">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <section class="lesson-part">
+      <header>
+        <img src="https://assets.univesp.br/canvas/img/material.svg" alt="">
+        <div class="section-title">
+          <p>Cards coloridos</p>
+          <h2>Cards e ideias de como usá-los</h2>
+        </div>
+      </header>
+      <div class="styled-text">
+        <aside>
+          <span class="material-symbols-outlined">flag</span>
+          <p>Clique nos accordions para ver os cards.</p>
+        </aside>
+
+        <!-- <div class="card-purple">
+          <span class="material-symbols-outlined">lightbulb</span>
+          <div class="card-content">
+            <p>Para melhorar a acessibilidade devemos usar "Material Symbols Icons" com atributo
+              <code>aria-hidden="true</code>. Por exemplo:
+            </p>
+            <pre><code>&lt;span class="material-symbols-outlined"&gt;lightbulb&lt;/span&gt;</code></pre>
+          </div>
+        </div> -->
+
+        <details>
+          <summary>Palavras grifadas</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Palavras grifadas</h3>
+            </div>
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-1">Preview</a></li>
+                <li><a href="#tab-2">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-1">
+                <p>
+                  <span class="text-marked-green">Frase green</span>
+                </p>
+              </div>
+              <div class="nav-tabs-content" id="tab-2">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;p&gt;
+  &lt;span class="text-marked-green"&gt;Frase green&lt;/span&gt;,
+  &lt;span class="text-marked-purple"&gt;Frase purple&lt;/span&gt;,
+  &lt;span class="text-marked-yellow"&gt;Frase yellow&lt;/span&gt;,
+  &lt;span class="text-marked-blue"&gt;Frase blue&lt;/span&gt;.
+&lt;/p&gt;</code></pre>
+              </div>
+            </div>
+            <br>
+
+            <h4><strong>Exemplos de uso:</strong></h4>
+            <ul>
+              <li>
+                <p><strong>Como uma alternativa ao negrito:</strong></p>
+                <p>
+                  Em essência, a <span class="text-marked-green">Matemática Financeira lida com o valor do dinheiro no
+                    tempo</span>. Receber uma quantia hoje ou
+                  mês que vem apresentam diferenças consideráveis, correto?
+                </p>
+              </li>
+              <li>
+                <p><strong>Nos diálogos:</strong></p>
+                <p><span class="text-marked-green">Montagem:</span> Aqui vocês podem utilizar as determinadas cores
+                  acima,
+                  basta solicitar no roteiro com o nome: "Frase green, Frase purple, Frase yellow e/ou Frase blue"</p>
+                <p><span class="text-marked-green">DIs:</span> Ok! Entendido!</p>
+              </li>
+            </ul>
+          </article>
+        </details>
+
+        <details>
+          <summary>Blockquote</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Blockquote</h3>
+            </div>
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-3">Preview</a></li>
+                <li><a href="#tab-4">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-3">
+                <blockquote class="aspas-green">
+                  A única maneira de fazer algo excelente é amar o que você faz. Se você ainda não a encontrou, continue
+                  procurando. Não se acomode.
+                  <footer><cite>— Steve Jobs</cite></footer>
+                </blockquote>
+              </div>
+              <div class="nav-tabs-content" id="tab-4">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;blockquote class="aspas-green"&gt;
+  A única maneira de fazer algo excelente é amar o que você faz.
+  Se você ainda não a encontrou, continue procurando. Não se acomode.
+  &lt;footer&gt;&lt;cite&gt;— Steve Jobs&lt;/cite&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;</code></pre>
+              </div>
+            </div>
+          </article>
+        </details>
+
+
+
+        <details>
+          <summary>Cards simples: ícone à esquerda + texto à direita</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Cards simples</h3>
+            </div>
+            <!-- <p>*Use <code>&lt;aside&gt;</code> para criar um "Card simples".</p> -->
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-5">Preview</a></li>
+                <li><a href="#tab-6">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-5">
+                <aside>
+                  <span class="material-symbols-outlined">flag</span>
+                  <p>Acesse cada semana pelo menu lateral à esquerda.</p>
+                </aside>
+
+                <aside>
+                  <span class="material-symbols-outlined">flag</span>
+                  <p>Não se esqueça de que, para acessar os livros (abaixo), você antes precisa fazer o login através
+                    das páginas de acesso <a href="https://login.univesp.br/simplesaml/module.php/core/mb.php"
+                      target="_blank">Minha Biblioteca</a> e <a
+                      href="https://login.univesp.br/simplesaml/module.php/core/pearson.php"
+                      target="_blank">Pearson</a>.</p>
+                </aside>
+
+                <aside>
+                  <span class="material-symbols-outlined">flag</span>
+                  <p><strong>Observação ou informação:</strong> Este modelo de card simples, pode ser estilizado, você
+                    pode mudar apenas o ícone (veja mais abaixo nos Exemplos de Material Symbols Icons), a cor é
+                    padrão. Solicite: "Cards simples - ícone: "flag".</p>
+                </aside>
+
+                <aside>
+                  <span class="material-symbols-outlined">lightbulb</span>
+                  <p><strong>Dica ou importante:</strong> Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.</p>
+                </aside>
+
+                <div class="card-purple">
+                  <span class="material-symbols-outlined">lightbulb</span>
+                  <div class="card-content">
+                    <p><strong>Importante:</strong></p>
+                    <ul>
+                      <li>
+                        <p>A instrução das bibliotecas pode variar dependendo do conteúdo. Por exemplo:</p>
+                        <p>Não se esqueça de que, para acessar o livro (abaixo), você antes precisa fazer o login
+                          através da página de acesso <a
+                            href="https://login.univesp.br/simplesaml/module.php/core/pearson.php"
+                            target="_blank">Pearson</a>.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-tabs-content" id="tab-6">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;aside&gt;
+  &lt;span class="material-symbols-outlined"&gt;flag&lt;/span&gt;
+  &lt;p&gt;Acesse cada semana pelo menu lateral à esquerda.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;aside&gt;
+  &lt;span class="material-symbols-outlined"&gt;flag&lt;/span&gt;
+  &lt;p&gt;&lt;strong&gt;Observação ou informação:&lt;/strong&gt; Este modelo de card simples,
+  pode ser estilizado, você pode mudar apenas o ícone (veja mais abaixo nos
+  Exemplos de Material Symbols Icons), a cor é padrão. Solicite: "Cards
+  simples - ícone: "flag".&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;aside&gt;
+  &lt;span class="material-symbols-outlined"&gt;lightbulb&lt;/span&gt;
+  &lt;p&gt;&lt;strong&gt;Dica ou importante:&lt;/strong&gt; Lorem ipsum
+  dolor sit amet consectetur adipisicing elit.&lt;/p&gt;
+&lt;/aside&gt;</code></pre>
+              </div>
+            </div>
+          </article>
+        </details>
+
+
+
+        <details>
+          <summary>Cards coloridos com ícones</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Cards coloridos com ícones</h3>
+            </div>
+
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-7">Preview</a></li>
+                <li><a href="#tab-8">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-7">
+
+                <div class="card-yellow">
+                  <span class="material-symbols-outlined">campaign</span>
+                  <div class="card-content">
+                    <p>Já nos <strong>cards coloridos com ícones,</strong> você pode escolher dentre as cores:
+                      card-yellow, card-purple, card-green, card-grey e/ou card-red. Os ícones podem ser escolhidos nos
+                      Exemplos de Material Symbols Icons. Solicite: Card colorido - ícone: "campaign" - cor:
+                      "yellow"</p>
+                  </div>
+                </div>
+
+                <div class="card-yellow">
+                  <span class="material-symbols-outlined">auto_awesome</span>
+                  <div class="card-content">
+                    <p><strong>Desafio ou refletir:</strong><br> Supondo que essa curva em vermelho possa ser
+                      aproximada por uma reta \[y=f(t_0)+m(t-t_0),\] que passa no ponto \((t_0,f(t_0))\), em que
+                      \(t_0=0\)
+                      representa o dia \(5\) de maio e \(f(t_0)=1832\), é possível estimar o número total de óbitos no
+                      dia
+                      \(11\) de maio de \(2020\)?</p>
+                  </div>
+                </div>
+
+                <div class="card-purple">
+                  <span class="material-symbols-outlined">lightbulb</span>
+                  <div class="card-content">
+                    <p><strong>Importante:</strong> Lorem ipsum dolor sit amet ...</p>
+                  </div>
+                </div>
+
+                <div class="card-purple">
+                  <span class="material-symbols-outlined">code</span>
+                  <div class="card-content">
+                    <p><strong>Programas, código:</strong>
+                      Lorem ipsum dolor sit amet ...</p>
+                  </div>
+                </div>
+
+                <div class="card-purple">
+                  <span class="material-symbols-outlined">podcasts</span>
+                  <div class="card-content">
+                    <p><strong>Podcast:</strong>
+                      Lorem ipsum dolor sit amet ...</p>
+                  </div>
+                </div>
+
+                <div class="card-green">
+                  <span class="material-symbols-outlined">flag</span>
+                  <div class="card-content">
+                    <p><strong>Informação, Observação, Objetivo etc:</strong> Lorem ipsum dolor sit amet ...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-grey">
+                  <span class="material-symbols-outlined">menu_book</span>
+                  <div class="card-content">
+                    <p><strong>Para textos base/apoio</strong>: Lorem ipsum dolor sit amet ...
+                    </p>
+                  </div>
+                </div>
+
+                <div class="card-grey">
+                  <span class="material-symbols-outlined">interests</span>
+                  <div class="card-content"><a href="https://apps.univesp.br/repositorio/sistema-solar-na-medida-certa/"
+                      target="_blank">REA – Sistema Solar na Medida Certa</a> (<strong>para REA</strong>)</div>
+                </div>
+
+                <div class="card-grey">
+                  <span class="material-symbols-outlined">smart_display</span>
+                  <div class="card-content"><strong>Video-base:</strong> <a
+                      href="https://www.youtube.com/watch?v=uyIUpKohhI0" target="_blank">Atração
+                      Mútua
+                      de Corpos | Inercia Uruguay</a></div>
+                </div>
+
+                <div class="card-red">
+                  <span class="material-symbols-outlined">warning</span>
+                  <div class="card-content">
+                    <p><strong>Atenção ou cuidado:</strong> Lorem ipsum dolor sit amet ...</p>
+                  </div>
+                </div><br>
+
+                <h4>Exemplo de uso:</h4>
+
+                <div class="grid2col">
+                  <figure>
+                    <img
+                      src="https://lh3.googleusercontent.com/KXFIUdfQL9XVLZE6pPPtmwNFPSg-VVrWZDd7jgvaelfJBKQNtW8fGHzotyfs8NOD6qow6cUT34wXZb6tOkTe2n4Jo738qqVdoSOEH1BqIxTw=s0"
+                      alt="" style="aspect-ratio: 1.09333 / 1;">
+                    <figcaption class="do-dont">
+                      <div class="card-green margin-top-0">
+                        <span class="material-symbols-outlined">thumb_up</span>
+                        <div class="card-content">
+                          <p><strong>Do</strong> </p>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                  <figure>
+                    <img
+                      src="https://lh3.googleusercontent.com/uJ2O2-0dUEGtueC9hOYzPkh24BGs0RWi6TtBtKXXKm-w2AerCvzZ90tbchcQIfXIpkXVtbPtI3QkNHKqq98homfxHjBeiIkviWn6WB-Sd7A=s0"
+                      alt="" style="aspect-ratio: 1.09333 / 1;">
+                    <figcaption class="do-dont">
+                      <div class="card-red margin-top-0">
+                        <span class="material-symbols-outlined">thumb_down</span>
+                        <div class="card-content">
+                          <p><strong>Don't</strong> </p>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+
+              <div class="nav-tabs-content" id="tab-8">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="card-yellow"&gt;
+  &lt;span class="material-symbols-outlined"&gt;campaign&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;Já nos &lt;strong&gt;cards coloridos com ícones,&lt;/strong&gt;&lt; você pode
+    escolher dentre as cores: card-yellow, card-purple, card-green, card-grey e/ou card-red.
+    Os ícones podem ser escolhidos nos Exemplos de Material Symbols Icons.
+    Solicite: Card colorido - ícone: "campaign" - cor: "yellow".&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-yellow"&gt;
+  &lt;span class="material-symbols-outlined"&gt;auto_awesome&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Para desafio, para refletir:&lt;/strong&gt; Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-purple"&gt;
+  &lt;span class="material-symbols-outlined"&gt;lightbulb&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Dica ou importante:&lt;/strong&gt; Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-purple"&gt;
+  &lt;span class="material-symbols-outlined"&gt;code&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Para programas, codigo etc:&lt;/strong&gt; Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-green"&gt;
+  &lt;span class="material-symbols-outlined"&gt;flag&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Informação, Observação, Objetivo etc: &lt;/strong&gt; Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-grey"&gt;
+  &lt;span class="material-symbols-outlined"&gt;menu_book&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Para textos base/apoio&lt;/strong&gt;: Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-grey"&gt;
+  &lt;span class="material-symbols-outlined"&gt;interests&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;a href="#"&gt;REA – Sistema Solar na Medida Certa&lt;/a&gt; (&lt;strong&gt;para REA&lt;/strong&gt;)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-grey"&gt;
+  &lt;span class="material-symbols-outlined"&gt;smart_display&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;a href="#"&gt;Atração Mútua de Corpos | Inercia Uruguay&lt;/a&gt; (&lt;strong&gt;para videos&lt;/strong&gt;)&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-red"&gt;
+  &lt;span class="material-symbols-outlined"&gt;warning&lt;/span&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Atenção ou cuidado:&lt;/strong&gt; Lorem ipsum dolor sit amet ...&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </article>
+        </details>
+
+
+
+        <details>
+          <summary>Cards coloridos sem ícones</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Cards coloridos sem ícones</h3>
+            </div>
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-11">Preview</a></li>
+                <li><a href="#tab-12">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-11">
+                <div class="card-grey">
+                  <div class="card-content">
+                    <p><strong>Card grey:</strong><br>Nos cards coloridos sem ícone, você tem a opção de utiliza-los sem
+                      os ícones, somente alterando a cor. Basta solicitar: Card sem ícone - "grey".</p>
+                  </div>
+                </div>
+
+                <div class="card-purple">
+                  <div class="card-content">
+                    <strong>Card purple:</strong><br> Lorem ipsum dolor sit amet ...
+                  </div>
+                </div>
+
+                <div class="card-yellow">
+                  <div class="card-content">
+                    <strong>Card yellow:</strong><br>Lorem ipsum dolor sit amet ...
+                  </div>
+                </div>
+
+                <div class="card-green">
+                  <div class="card-content">
+                    <strong>Card green:</strong><br> Lorem ipsum dolor sit amet ...
+                  </div>
+                </div>
+
+                <div class="card-red">
+                  <div class="card-content">
+                    <strong>Card red:</strong><br> Lorem ipsum dolor sit amet ...
+                  </div>
+                </div>
+
+                <div class="card-neutral">
+                  <div class="card-content">
+                    <strong>Card neutral:</strong><br> Lorem ipsum dolor sit amet ...
+                  </div>
+                </div>
+              </div>
+              <div class="nav-tabs-content" id="tab-12">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;div class="card-grey"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;p&gt;&lt;strong&gt;Card grey:&lt;/strong&gt;&lt;br&gt; Nos cards coloridos sem ícone, você tem a opção de utiliza-los sem
+    os ícones, somente alterando a cor. Basta solicitar: Card sem ícone - "grey".&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-purple"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;strong&gt;Card purple:&lt;/strong&gt;&lt;br&gt; Lorem ipsum dolor sit ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-yellow"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;strong&gt;Card yellow:&lt;/strong&gt;&lt;br&gt;Lorem ipsum dolor sit amet ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-green"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;strong&gt;Card green:&lt;/strong&gt;&lt;br&gt; Lorem ipsum dolor sit amet ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-red"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;strong&gt;Card red:&lt;/strong&gt;&lt;br&gt; Lorem ipsum dolor sit amet ...
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="card-neutral"&gt;
+  &lt;div class="card-content"&gt;
+    &lt;strong&gt;Card neutral:&lt;/strong&gt;&lt;br&gt; Lorem ipsum dolor sit amet ...
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+              </div>
+            </div>
+          </article>
+        </details>
+
+
+
+        <details>
+          <summary>Card com sombra</summary>
+
+          <div class="card-green flex-center">
+            <h3>Card com sombra</h3>
+          </div>
+          <div class='tabs'>
+            <ul class="nav-tabs">
+              <li><a href="#tab-13">Preview</a></li>
+              <li><a href="#tab-14">HTML</a></li>
+            </ul>
+            <div class="nav-tabs-content" id="tab-13">
+              <article>
+                <p><strong>Card com sombra:</strong><br> Este é o card com sombra nas bordas, mais uma opção de card.
+                  Solicite: "Card com sombra"</p>
+              </article>
+
+
+              <h4>Exemplos de uso:</h4>
+              <h3>Você pediu, nós respondemos! 📣</h3>
+              <details>
+                <summary>Lorem ipsum dolor sit amet</summary>
+                <article>Um texto longo ...</article>
+              </details>
+              <details>
+                <summary>Lorem ipsum dolor sit amet</summary>
+                <article>Um texto longo ...</article>
+              </details>
+              <details>
+                <summary>Lorem ipsum dolor sit amet</summary>
+                <article>Um texto longo ...</article>
+              </details>
+
+            </div>
+            <div class="nav-tabs-content" id="tab-14">
+              <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;article&gt;
+  &lt;p&gt;&lt;strong&gt;Card com sombra:&lt;/strong&gt;&lt;br&gt;
+  Este é o card com sombra nas bordas, mais uma opção de card.
+  Solicite: "Card com sombra".&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+            </div>
+          </div><br>
+        </details>
+
+
+
+
+        <details>
+          <summary>Exemplos de cards para material-base e apoio</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Exemplos de cards para material-base e apoio</h3>
+            </div>
+            <div class='tabs'>
+              <ul class="nav-tabs">
+                <li><a href="#tab-9">Preview</a></li>
+                <li><a href="#tab-10">HTML</a></li>
+              </ul>
+              <div class="nav-tabs-content" id="tab-9">
+                <aside>
+                  <span class="material-symbols-outlined">flag</span>
+                  <p>Não se esqueça de que, para acessar os livros (abaixo), você antes precisa fazer o login através
+                    das
+                    páginas
+                    de
+                    acesso <a href="https://login.univesp.br/simplesaml/module.php/core/mb.php" target="_blank"
+                      rel="noopener">Minha Biblioteca</a> e <a
+                      href="https://login.univesp.br/simplesaml/module.php/core/pearson.php" target="_blank"
+                      rel="noopener">Pearson</a>.</p>
+                </aside>
+                <ul class="list-cards">
+                  <li class="card-grey">
+                    <span class="material-symbols-outlined">menu_book</span>
+                    <div class="card-content">
+                      <p><strong>Texto-base 1:</strong> <a href="">Cálculo A: Funções, limite, derivação e integração
+                          (Ler:
+                          cap. 1 - Números Reais, p. 1-11) | Diva Marília Flemming e Mirian Buss Gonçalves</a></p>
+                    </div>
+                  </li>
+                  <li class="card-grey">
+                    <span class="material-symbols-outlined">menu_book</span>
+                    <div class="card-content">
+                      <p><strong>Texto-base 2:</strong> <a href="#">Introdução ao cálculo e aplicações (Ler: cap. 2 -
+                          Números, p. 10-23) | Rodney Carlos
+                          Bassanezi</a></p>
+                      <p class="sinopse">Sinopse: Lorem, ipsum dolor sit amet ...</p>
+                    </div>
+                  </li>
+                  <li class="card-purple">
+                    <span class="material-symbols-outlined">code</span>
+                    <div class="card-content">
+                      <p>Programas em Python Notebook | Maíra Martins da Silva</p>
+                      <div class="flex-center">
+                        <div class="no-wrap">
+                          <i class="fab fa-python"></i> <a href="#">RK.ipynb</a>
+                        </div>
+                        <div class="no-wrap">
+                          <i class="fab fa-python"></i> <a href="#">FT.ipynb</a>
+                        </div>
+                      </div>
+                      <p class="sinopse">Os programas trazem uma abordagem numérica para o cálculo da
+                        resposta, dos polos e da função de transferência do sistema. </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-tabs-content" id="tab-10">
+                <pre class="code-snippet" data-lang="HTML"><code class="language-html">&lt;ul class="list-cards"&gt;
+  &lt;li class="card-grey"&gt;
+    &lt;span class="material-symbols-outlined"&gt;menu_book&lt;/span&gt;
+    &lt;div class="card-content"&gt;
+      &lt;p&gt;&lt;strong&gt;Texto-base 1:&lt;/strong&gt; &lt;a href=""&gt;Cálculo A: Funções, limite, derivação e integração (Ler:
+        cap. 1 - Números Reais, p. 1-11) | Diva Marília Flemming e Mirian Buss Gonçalves&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="card-grey"&gt;
+    &lt;span class="material-symbols-outlined"&gt;menu_book&lt;/span&gt;
+    &lt;div class="card-content"&gt;
+      &lt;p&gt;&lt;strong&gt;Texto-base 2:&lt;/strong&gt; &lt;a href="#"&gt;Introdução ao cálculo e aplicações (Ler: cap. 2 -
+        Números, p. 10-23) | Rodney Carlos Bassanezi&lt;/a&gt;&lt;/p&gt;
+      &lt;p class="sinopse"&gt;Sinopse: Lorem, ipsum dolor sit amet ...&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="card-purple"&gt;
+    &lt;span class="material-symbols-outlined"&gt;code&lt;/span&gt;
+    &lt;div class="card-content"&gt;
+      &lt;p&gt;Programas em Python Notebook | Maíra Martins da Silva&lt;/p&gt;
+      &lt;div class="flex-center"&gt;
+        &lt;div class="no-wrap"&gt;
+          &lt;i class="fab fa-python"&gt;&lt;/i&gt; &lt;a href="#"&gt;RK.ipynb&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class="no-wrap"&gt;
+          &lt;i class="fab fa-python"&gt;&lt;/i&gt; &lt;a href="#"&gt;FT.ipynb&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class="sinopse"&gt;Os programas trazem uma abordagem numérica para o cálculo da
+        resposta, dos polos e da função de transferência do sistema. &lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+              </div>
+            </div><br>
+
+            <h4>Exemplos de uso de cards, dependendo do tamanho do conteúdo</h4>
+            <p><strong>1. Um cartão</strong></p>
+            <div class="card-grey">
+              <span class="material-symbols-outlined">menu_book</span>
+              <div class="card-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                  laudantium saepe hic molestias?</p>
+              </div>
+            </div>
+
+            <p><strong>2. Tamanho do conteúdo razoável</strong></p>
+            <ul class="list-cards">
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+            </ul>
+
+            <p><strong>3. Tamanho do conteúdo diferente (curto e longo)</strong></p>
+            <aside>
+              <span class="material-symbols-outlined">flag</span>
+              <p>Use <code>class="... full-width-card"</li></code> para card com um texto longo. </p>
+            </aside>
+            <ul class="list-cards">
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+              <li class="card-grey full-width-card">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias? Lorem ipsum dolor sit, amet consectetur adipisicing elit. In
+                    deleniti saepe fugiat sit minus quasi impedit soluta voluptatibus iste expedita, error tenetur quam
+                    dignissimos voluptatem, nisi dolorem. Aperiam, at iusto! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Quo numquam inventore esse temporibus, optio aut quod iste error vel a quidem.
+                    Doloribus eligendi vel similique, ullam quia optio eum cumque.</p>
+                </div>
+              </li>
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+              <li class="card-grey">
+                <span class="material-symbols-outlined">menu_book</span>
+                <div class="card-content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, culpa! Tenetur inventore
+                    laudantium saepe hic molestias?</p>
+                </div>
+              </li>
+            </ul>
+
+
+
+          </article>
+        </details>
+
+
+
+
+        <details>
+          <summary>Exemplos de cards para exercícios de apoio</summary>
+          <article>
+            <div class="card-green flex-center">
+              <h3>Exemplos de cards para exercícios de apoio</h3>
+            </div>
+            <aside>
+              <span class="material-symbols-outlined">flag</span>
+              <p>Não se esqueça de que, para acessar os livros (abaixo), você antes precisa fazer o login através das
+                páginas
+                de
+                acesso <a href="https://login.univesp.br/simplesaml/module.php/core/mb.php" target="_blank"
+                  rel="noopener">Minha Biblioteca</a> e <a
+                  href="https://login.univesp.br/simplesaml/module.php/core/pearson.php" target="_blank"
+                  rel="noopener">Pearson</a>.</p>
+            </aside>
+
+            <ul class="list-cards">
+              <li class="card-green">
+                <span class="material-symbols-outlined">counter_1</span>
+                <div class="card-content">
+                  <p><strong>Física I – Mecânica | Young &amp; Freedman</strong></p>
+                  <p><strong>Exercícios</strong>:</p>
+                  <ul>
+                    <li>
+                      <a href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/270/pdf/76" target="_blank">2.1;
+                        2.21;
+                        2.39 (Capítulo 2: Movimento Retilíneo)</a>;
+                    </li>
+                    <li>
+                      <a href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/270/pdf/113" target="_blank">3.3;
+                        3.17 (Capítulo 3: Movimento em duas ou três dimensões)</a>;
+                    </li>
+                    <li>
+                      <a href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/270/pdf/146" target="_blank">4.3;
+                        4.7;
+                        4.15; 4.19; 4.21 (Capítulo 4: Leis de Newton do Movimento)</a>.
+                    </li>
+                  </ul>
+                  <p><a href="https://plataforma.bvirtual.com.br/Leitor/Publicacao/270/pdf/412"
+                      target="_blank">Respostas</a></p>
+                </div>
+              </li>
+              <li class="card-green">
+                <span class="material-symbols-outlined">counter_2</span>
+                <div class="card-content">
+                  <p><strong>Física I – Mecânica | Nussenzweig</strong></p>
+                  <p><strong>Exercícios</strong>:</p>
+                  <ul>
+                    <li>
+                      <a href="https://integrada.minhabiblioteca.com.br/#/books/9788521207467/cfi/58!/4/4@0.00:45.4"
+                        target="_blank">2.3 e
+                        2.13 (Capítulo 2: Movimento Unidimensional)</a>;
+                    </li>
+                    <li>
+                      <a href="https://integrada.minhabiblioteca.com.br/#/books/9788521207467/cfi/85!/4/4@0.00:0.00"
+                        target="_blank">3.7 e
+                        3.15 (Capítulo 3: Movimento Bidimensional)</a>;
+                    </li>
+                    <li>
+                      <a href="https://integrada.minhabiblioteca.com.br/#/books/9788521207467/cfi/108!/4/4@0.00:0.00"
+                        target="_blank">4.9
+                        (Capítulo 4: Princípios da Dinâmica)</a>.
+                    </li>
+                  </ul>
+                  <p><a href="https://integrada.minhabiblioteca.com.br/reader/books/9788521207467/pageid/379"
+                      target="_blank">Respostas</a></p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="card-green">
+              <div class="card-content">
+                <strong>Exercício 1.</strong>
+                Considere que a dinâmica do sistema pode ser representada pela Função
+                Transferência \(G(s)\) (que é a relação entre a entrada \(F(s)\) e a
+                saída \(X(s)\)):
+                \[G(s) = \frac{X}{F}(s) = \frac{1}{s^{2} + s + 1}.\]
+                Calcule a resposta temporal \(x(t)\) para um impulso.
+              </div>
+            </div>
+            <aside>
+              <span class="material-symbols-outlined">lightbulb</span>
+              <p><strong>Dica:</strong> A
+                transformada de Laplace do impulso \(\delta(t)\) é dada por
+                \[F(s)=\mathcal{L}\left( \delta(t) \right) = 1\quad \text{e}\quad
+                \mathcal{L}\left(e^{at}\sin(bt) \right) = \frac{b}{(s - a)^{2} + b^{2}}.\]</p>
+            </aside>
+            <details>
+              <summary><strong>Solução</strong></summary>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quam sit, laborum ex porro pariatur
+                illum dolores! Qui excepturi laudantium est minus odit, et ab rerum, doloremque praesentium hic
+                molestiae.</p>
+            </details>
+          </article>
+        </details><br><br>
+
+
+
+        <div class="card-yellow flex-center">
+          <h3>Exemplos de <a href="https://fonts.google.com/icons" target="_blank">Material Symbols Icons</a></h3>
+        </div>
+        <ul class="list-unstyled grid-auto grid-highlight text-center">
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">campaign</span>
+            <small>campaign</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">code</span>
+            <small>code</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">lightbulb</span>
+            <small>lightbulb</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">flag</span>
+            <small>flag</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">info</span>
+            <small>info</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">menu_book</span>
+            <small>menu_book</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">warning </span>
+            <small>warning </small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">auto_awesome</span>
+            <small>auto_awesome</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">interests</span>
+            <small>interests</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">smart_display</span>
+            <small>smart_display</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">check</span>
+            <small>check</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">article</span>
+            <small>article</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">close</span>
+            <small>close</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">thumb_up</span>
+            <small>thumb_up</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">thumb_down</span>
+            <small>thumb_down</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">arrow_outward</span>
+            <small>arrow_outward</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">podcasts</span>
+            <small>podcasts</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">counter_1</span>
+            <small>counter_1</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">counter_2</span>
+            <small>counter_2</small>
+          </li>
+          <li class="flex-column">
+            <span class="material-symbols-outlined h1">counter_3</span>
+            <small>counter_3</small>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- JS for page -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Tabs navigation para os videos-->
+  <script src="https://assets.univesp.br/blackboard/js/jquery.tabslet.min.js"></script>
+  <script>$(document).ready(function () {
+      $('.tabs').tabslet();
+    });</script>
+
+  <script src="https://assets.univesp.br/blackboard/js/script-ava.js"></script>
+
+  <!--KaTeX for mathematics formulas-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" crossorigin="anonymous">
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" crossorigin="anonymous"></script>
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+  <!-- HTML, CSS, Python, PHP etc code highlighting  -->
+  <script src="https://assets.univesp.br/blackboard/js/prism.js"></script>
+  <!-- Instantiate clipboard -->
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+  <script src="https://assets.univesp.br/blackboard/js/clipboard.ava.js"></script>
+</body>
+
+</html>

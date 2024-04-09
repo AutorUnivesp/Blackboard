@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprofundando o tema</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet" href="https://assets.univesp.br/blackboard/css/ava-style-2024.css?v=1.01-d">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <section class="lesson-part">
+      <header>
+        <img src="https://assets.univesp.br/canvas/img/aprofundando.svg" alt="">
+        <div class="section-title">
+          <p>Material de apoio</p>
+          <h2>Aprofundando o Tema</h2>
+        </div>
+      </header>
+      <div class="styled-text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptatibus similique perspiciatis ut iusto
+          sint architecto delectus ipsa. </p>
+
+        <!-- Tabs navigation para os videos -->
+        <div class='tabs'>
+          <ul class="nav-tabs-videos">
+            <li><a href="#tab-1">Modelamento Matemático de Motor DC - Parte 1 | Leandro Poloni Dantas</a></li>
+            <li><a href="#tab-2">Modelamento Matemático de Motor DC - Parte 2 | Leandro Poloni Dantas</a></li>
+          </ul>
+          <!-- Videos -->
+          <div class="nav-tabs-content" id="tab-1">
+            <figure>
+              <iframe src="https://www.youtube.com/embed/kkM8v5x9OkM" width="300" height="150" loading="lazy"
+                allowfullscreen></iframe>
+              <figcaption>Modelagem matemática de um motor.</figcaption>
+            </figure>
+          </div>
+          <div class="nav-tabs-content" id="tab-2">
+            <figure>
+              <iframe src="https://www.youtube.com/embed/XDqmgyN9t20" width="300" height="150" loading="lazy"
+                allowfullscreen></iframe>
+              <figcaption>
+                Modelagem matemática de um motor.
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--JavaScript used on the page-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Tabs navigation para os videos-->
+  <script src="https://assets.univesp.br/blackboard/js/jquery.tabslet.min.js"></script>
+  <script>$(document).ready(function () {
+      $('.tabs').tabslet();
+    });</script>
+
+  <script src="https://assets.univesp.br/blackboard/js/script-ava.js"></script>
+
+
+</body>
+
+</html>
